@@ -1,6 +1,6 @@
 {
   "name": "@laptou/eslint-config-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "laptou's typescript eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^2.25.0"
   },
   "peerDependencies": {
-    "eslint": ">= 6"
+    "eslint": ">= 6",
+    "typescript": ">= 2"
   }
 }
