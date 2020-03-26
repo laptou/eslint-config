@@ -1,0 +1,23 @@
+{
+  "name": "@laptou/eslint-config",
+  "version": "1.0.0",
+  "description": "laptou's eslint configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laptou/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Ibiyemi Abiodun <ibiyemi@intulon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laptou/eslint-config/issues"
+  },
+  "homepage": "https://github.com/laptou/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}

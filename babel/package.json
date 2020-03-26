@@ -1,24 +1,28 @@
 {
-  "name": "@laptou/eslint-config",
+  "name": "@laptou/eslint-config-babel",
   "version": "1.0.0",
   "description": "laptou's eslint configuration",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/laptou/eslint-config.git"
   },
   "keywords": [
     "eslint",
-    "eslint",
-    "config"
+    "eslintconfig"
   ],
   "author": "Ibiyemi Abiodun <ibiyemi@intulon.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/laptou/eslint-config/issues"
   },
-  "homepage": "https://github.com/laptou/eslint-config#readme"
+  "homepage": "https://github.com/laptou/eslint-config#readme",
+  "dependencies": {
+    "@laptou/eslint-config": "^1",
+    "babel-eslint": "^10.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6",
+    "@babel/core": ">= 7.2.0"
+  }
 }
