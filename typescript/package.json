@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/laptou/eslint-config/issues"
   },
-  "homepage": "https://github.com/laptou/eslint-config#readme"
+  "homepage": "https://github.com/laptou/eslint-config#readme",
+  "dependencies": {
+    "@laptou/eslint-config": "^1",
+    "@typescript-eslint/parser": "^2.25.0",
+    "@typescript-eslint/eslint-plugin": "^2.25.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
 }
