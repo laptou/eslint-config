@@ -1,6 +1,6 @@
 {
   "name": "@laptou/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "laptou's eslint configuration",
   "main": "index.js",
   "repository": {

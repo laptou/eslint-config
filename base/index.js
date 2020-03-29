@@ -37,7 +37,7 @@ module.exports = {
     
     // newline rules
     'object-curly-newline': ['error', { multiline: true, minProperties: 4, consistent: true }],
-    'object-property-newline': ['error', 'always', { allowAllPropertiesOnSameLine: true }],
+    'object-property-newline': ['error', { allowAllPropertiesOnSameLine: true }],
 
     // comma rules
     'comma-dangle': ['error', 'never'],
