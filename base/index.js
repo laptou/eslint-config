@@ -47,7 +47,7 @@ module.exports = {
     // quote rules
     'jsx-quotes': ['error', 'prefer-single'],
     'quote-props': ['error', 'consistent-as-needed'],
-    'quotes': ['error', 'single'],
+    'quotes': ['error', 'single', { avoidEscape: true }],
 
     // other rules
     'semi': ['error', 'always'],
