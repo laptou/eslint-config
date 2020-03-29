@@ -36,7 +36,7 @@ module.exports = {
     'indent': ['error', 2],
     
     // newline rules
-    'object-curly-newline': ['error', 'always', { multiline: true, minProperties: 4, consistent: true }],
+    'object-curly-newline': ['error', { multiline: true, minProperties: 4, consistent: true }],
     'object-property-newline': ['error', 'always', { allowAllPropertiesOnSameLine: true }],
 
     // comma rules
